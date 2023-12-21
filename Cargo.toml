@@ -14,7 +14,7 @@ exclude = ["/.github"]
 #async-std = { version = "1.10.0", optional = true }
 bitflags = "2.2.3"
 #cap-std = { version = "2.0.0", optional = true }
-cap-std = { git = "ssh://git@github.com/yagehu/cap-std", branch = "yagehu/o-path", optional = true }
+cap-std = { git = "ssh://git@github.com/yagehu/cap-std", branch = "yagehu/wazzi", optional = true }
 #cap-async-std = { version = "0.26.0", optional = true }
 char-device = { version = "0.16.0", optional = true }
 os_pipe = { version = "1.0.0", features = ["io_safety"], optional = true }
@@ -43,7 +43,7 @@ features = [
 [dev-dependencies]
 cap-fs-ext = "2.0.0"
 cap-tempfile = "2.0.0"
-cap-std = { git = "ssh://git@github.com/yagehu/cap-std", branch = "yagehu/o-path" }
+cap-std = { git = "ssh://git@github.com/yagehu/cap-std", branch = "yagehu/wazzi" }
 tempfile = "3.2.0"
 
 [features]
